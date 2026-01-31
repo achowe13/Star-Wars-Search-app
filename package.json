@@ -1,0 +1,17 @@
+{
+  "name": "starwarssearchapp",
+  "version": "1.0.0",
+  "description": "Search for characters in the Star Wars universe.",
+  "main": "client.ts",
+  "scripts": {
+    "start": "ts-node client/client.ts"
+  },
+  "dependencies": {
+    "socket.io-client":"^4.8.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^25.1.0"
+  }
+}
