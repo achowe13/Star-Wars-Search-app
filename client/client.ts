@@ -1,5 +1,5 @@
 import { io } from "socket.io-client";
-const readline = require('readline');
+import readline from "readline"; // changed to import for consistancy
 
 // local host connection
 const socket = io("http://localhost:3000");
@@ -16,7 +16,7 @@ socket.on("connect", () => {
     questionUser();
 });
 
-// inform user
+// inform user if disconnected from server
 socket.on("disconnect", () => {
     console.log("Disconnected from Server");
 });
