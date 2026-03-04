@@ -54,7 +54,7 @@ function questionUser(): void {
             questionUser();
         } else {
             // send search query with user input and let the user know that the server is searching
-            socket.emit("search", {query:answer});
+            socket.emit("search", answer);
             console.log("searching...");
         };
     });
