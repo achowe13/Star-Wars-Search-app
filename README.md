@@ -31,12 +31,20 @@ npm install
 
 ## Running Client
 
-Docker server is required to run client (will add server in the future)
+server and client must be run in seperate terminals one using npm run client and the other using npm run server
 
 ## Start Client
 
+Terminal 1:
+
 ```bash
-npm start
+npm run client
+```
+
+Terminal 2:
+
+```bash
+npm run server
 ```
 
 You will be prompted in the terminal:

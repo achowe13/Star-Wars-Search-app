@@ -4,7 +4,8 @@
   "description": "Search for characters in the Star Wars universe.",
   "main": "client.ts",
   "scripts": {
-    "start": "ts-node client/client.ts"
+    "server": "ts-node server/starWarsApi.ts",
+    "client": "ts-node client/client.ts"
   },
   "dependencies": {
     "socket.io-client": "^4.8.3"
